@@ -1,5 +1,5 @@
 import Container3 from "./Container3";
-import video2 from "./video2.mp4";
+
 import VideoWindow from "./VideoWindow";
 import AlternatingPhotoText from "./AlternatingPhotoText";
 import foto1 from "./foto1.png";
@@ -25,9 +25,9 @@ const Servizi = () => {
           <span>Scegli</span>il tuo percorso
         </h1>
       </div>
-      <div>
-        <VideoWindow video1={video2} />
-      </div>
+      {/*  <div>
+       <VideoWindow video1={video2} />
+     </div> */}
       <Container3 />
       <div className="separator"></div>
       {data.map((item, index) => (
