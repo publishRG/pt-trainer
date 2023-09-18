@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "./Container";
-import VideoWindow from "./VideoWindow";
+// import VideoWindow from "./VideoWindow";
 import Container2 from "./Container2";
 import CardPricing from "./Card";
 import ImageCompSlider from "./ImageCompSlider";
