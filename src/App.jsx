@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import WhatsAppButton from "./components/WhatsappButton";
+import WhatsAppButton from "./components/WhatsAppButton";
 import Navbar from "./components/Navbar"; // Assicurati che il percorso sia corretto
 import Home from "./components/Home"; // Importa il componente per la Home
 import Servizi from "./components/Servizi"; // Importa il componente per i Servizi
