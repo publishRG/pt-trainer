@@ -26,7 +26,7 @@ const Home = () => {
     maxHeight: "80px", // Imposta l'altezza massima desiderata per le immagini
   };
 
-  const videoArray = [{ src: v1 }, { src: v2 }, { src: v3 }, { src: v4 }];
+//  const videoArray = [{ src: v1 }, { src: v2 }, { src: v3 }, { src: v4 }];
 
   return (
     <div className="home-container">
