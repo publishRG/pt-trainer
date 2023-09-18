@@ -5,10 +5,10 @@ import Container2 from "./Container2";
 import CardPricing from "./Card";
 import ImageCompSlider from "./ImageCompSlider";
 import VideoGrid from "./VideoGrid";
-import v1 from "./v1.mp4";
-import v2 from "./v2.mp4";
-import v3 from "./v3.mp4";
-import v4 from "./v4.mp4";
+
+
+
+
 import ca1 from "./ca1.png";
 import ca2 from "./ca2.png";
 import cam3 from "./cam3.png";
@@ -18,7 +18,7 @@ import cam6 from "./cam6.png";
 import cam7 from "./cam7.png";
 import cam8 from "./cam8.png";
 // import cam8 from "./cam8.png";
-import video1 from "./video1.mp4";
+
 import "./Home.css"; // Assumi che questo sia il tuo file di stile CSS per Home
 
 const Home = () => {
