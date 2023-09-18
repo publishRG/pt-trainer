@@ -3,7 +3,7 @@ import WhatsAppButton from "./components/WhatsappButton";
 import Navbar from "./components/Navbar"; // Assicurati che il percorso sia corretto
 import Home from "./components/Home"; // Importa il componente per la Home
 import Servizi from "./components/Servizi"; // Importa il componente per i Servizi
-import Chisono from "./components/ChiSono"; // Importa il componente per Chi Sono
+import Chisono from "./components/Chisono"; // Importa il componente per Chi Sono
 import Footer from "./components/Footer";
 
 import "./App.css";
