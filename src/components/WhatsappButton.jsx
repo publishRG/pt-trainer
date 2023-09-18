@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FaWhatsapp } from "react-icons/fa";
-import "./WhatsAppButton.css";
+import "./WhatsappButton.css";
 
 const WhatsAppButton = ({ phoneNumber }) => {
   const [isHovered, setIsHovered] = useState(false);
