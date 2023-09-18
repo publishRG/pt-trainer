@@ -1,0 +1,32 @@
+/* Aggiungi queste regole CSS nel tuo file CSS (ad es. Servizi.css) */
+.main-heading1 {
+    display: block;
+    text-align: center;
+    font-size: 56px;
+    padding: 40px;
+    color: white;
+    margin-bottom: 6rem;
+}
+
+.main-heading1 span {
+    display: block;
+    text-align: center;
+    font-size: 56px;
+
+}
+
+.separator {
+    width: 70%;
+    /* Larghezza di 20 rem */
+    height: 1px;
+    /* Altezza sottile per simulare una linea */
+
+    border-top: 5px rgba(99, 191, 176, 0.148) solid;
+    /* Colore del bordo */
+    margin: 0 auto;
+    /* Centra orizzontalmente */
+
+    /* Aggiunge spazio sopra la linea */
+    margin-bottom: 25px;
+    /* Aggiunge spazio sotto la linea */
+}

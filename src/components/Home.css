@@ -1,0 +1,86 @@
+/* Home.css */
+
+.separator {
+    margin: 20px 0;
+    /* Aggiungi margine sopra e sotto per spaziare la linea */
+    border: none;
+    margin-top: 4rem;
+    /* Rimuovi il bordo predefinito */
+    border-top: 2px solid rgb(99, 191, 176);
+    /* Aggiungi una linea orizzontale con un colore grigio */
+}
+
+
+.home-container {
+    width: 100%;
+}
+
+.additional-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+
+}
+
+.cont {
+
+    text-align: center;
+
+}
+
+.cont .main-heading {
+    font-size: 5.5vh;
+}
+
+
+@media (min-width: 900px) {
+    .cont .main-heading {
+        font-size: 10.5vh;
+    }
+}
+
+p {
+    margin: 10px 0;
+}
+
+
+
+
+
+/* Stili accentuati per le scritte richieste */
+
+.additional-info .info-item {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(97, 117, 114);
+    animation: bounce 1s infinite alternate;
+}
+
+/* Home.css */
+
+.contSlide {
+    border-top: 2px solid rgb(99, 191, 176);
+    border-bottom: 2px solid rgb(99, 191, 176);
+    padding: 3.6rem;
+    display: flex;
+    flex-direction: column;
+
+    /* Imposta la direzione dei contenuti su colonna */
+}
+
+.sliderRow {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    /* Aggiungi spazio tra le righe */
+}
+
+/* Stili per le immagini nei contenitori ImageCompSlider */
+.contSlide img {
+    max-width: 100%;
+    /* Imposta la larghezza massima dell'immagine al 100% del contenitore */
+    height: auto;
+    /* L'altezza si adatterÃ  proporzionalmente alla larghezza */
+}

@@ -1,0 +1,40 @@
+.main-heading2 {
+    padding: 10px;
+}
+
+.text2 {
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    margin: 1em 5em;
+    font-family: 'Prompt', sans-serif;
+    border-top: 5px rgba(99, 191, 176, 0.148) solid;
+    padding-top: 20px;
+}
+
+.lam {
+    font-size: 42px;
+}
+
+/* Aggiungi media query per schermi piÃ¹ piccoli */
+@media (max-width: 950px) {
+    .main-heading2 {
+        font-size: 34px;
+        /* Riduci la dimensione del titolo */
+    }
+
+    .text2 {
+        font-size: 24px;
+        /* Riduci la dimensione del testo */
+        margin: 1em;
+        /* Riduci il margine */
+    }
+
+    .text {
+        font-size: 22px;
+        /* Riduci la dimensione del testo */
+        margin: 1em;
+        /* Riduci il margine */
+    }
+
+}

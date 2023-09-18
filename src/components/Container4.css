@@ -1,0 +1,46 @@
+.content-container {
+    width: 100%;
+    height: 620px;
+    margin: 0 auto;
+    background-color: #e0e0e0;
+    border: solid rgb(99, 191, 176) 3px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-text {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 2em 10em;
+    font-family: 'Prompt', sans-serif;
+
+    /* Margine destro e sinistro di 10em, margine superiore e inferiore di 2em */
+}
+
+.main-heading {
+    color: white;
+    font-size: 45px;
+
+    font-family: 'Prompt', sans-serif;
+    white-space: pre-line;
+    /* Mandare a capo l'h1 al punto desiderato */
+    text-align: center;
+    /* Centra il testo orizzontalmente */
+    margin: 0 2em;
+    /* Margine destro e sinistro di 2em, margine superiore e inferiore di 0 */
+}
+
+.main-heading span {
+    color: rgb(99, 191, 176);
+}
+
+.text span {
+    color: rgb(99, 191, 176);
+}

@@ -1,0 +1,149 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    max-width: 900px;
+    margin: 20px auto;
+    padding-bottom: 3.5rem;
+
+}
+
+.card {
+
+    border: 1px solid rgb(99, 191, 176);
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(178, 215, 209, 0.984);
+    transition: transform 0.3s ease;
+    max-width: 250px;
+    height: 342px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 18px;
+    padding-right: 18px;
+    width: auto;
+    /* Ripristina la larghezza automatica per adattarsi alla griglia */
+    margin: 7vh;
+    position: relative;
+    /* Aggiungi questa linea */
+}
+
+.card::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Colore dell'overlay (nero con opacitÃ  al 50%) */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border-radius: 5px;
+    /* Puoi regolare la curvatura se vuoi */
+}
+
+
+
+
+
+.card h3 {
+
+    font-size: 23px !important;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 5cqh;
+    z-index: 2;
+}
+
+
+
+
+.textcard {
+    font-size: 17px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    z-index: 2;
+
+}
+
+
+
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card {
+    width: 30%;
+
+}
+
+
+
+
+
+
+.card {
+    width: auto;
+    /* Ripristina la larghezza automatica per adattarsi alla griglia */
+    margin: 7vh;
+    /* Aggiungi un margine tra le card */
+}
+
+
+@media (max-width: 600px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        margin: 1rem auto;
+        height: 35vh;
+
+
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+        margin: 1rem;
+    }
+
+}
+
+/* Aggiungi questo codice CSS alla fine del tuo file Card.css */
+
+/* Titoli delle card in modalitÃ  responsive */
+@media (max-width: 900px) {
+    .card h3 {
+        font-size: 18px !important;
+        /* Riduci leggermente la dimensione dei titoli */
+    }
+
+    .card p {
+        font-size: 15px !important;
+
+    }
+}
+
+/* Card in modalitÃ  responsive */
+@media (max-width: 600px) {
+    .card {
+        max-width: 100%;
+        /* Riduci leggermente la larghezza delle card */
+        margin: 1rem auto;
+    }
+}
