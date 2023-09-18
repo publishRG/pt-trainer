@@ -1,0 +1,69 @@
+\* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #171712;
+}
+
+.AppWrapper {
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto;
+  /* Optional: per centrare il contenuto *
+  flex-direction: column; /* Imposta il layout a colonna */
+  align-items: stretch;
+  /* Allarga gli elementi a riempire lo spazio */
+}
+
+.App,
+.AppWrapper {
+  width: 100%;
+}
+
+
+/* .contSlide {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+} */
+
+/* Optional: Aggiungi spazio tra i componenti ImageCompSlider */
+.ImageCompSlider {
+  margin-bottom: 20px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+iframe {
+  margin-left: 32em;
+}
+
+
+.titleImageComp {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  font-size: 30px;
+  color: white;
+}
+
+span {
+  color: rgb(99, 191, 176);
+}
+
+.middleT {
+  font-family: 'Prompt', sans-serif;
+}
