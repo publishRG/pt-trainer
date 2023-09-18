@@ -31,7 +31,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <Container />
-      <div>{<VideoWindow video1={video1} />}</div>
+      <div>{/* <VideoWindow video1={video1} /> */}</div>
       <Container2 />
       <div className="titleImageComp"></div>
 
