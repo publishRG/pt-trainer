@@ -4,7 +4,7 @@ import Container from "./Container";
 import Container2 from "./Container2";
 import CardPricing from "./Card";
 import ImageCompSlider from "./ImageCompSlider";
-// import VideoGrid from "./VideoGrid";
+import VideoGrid from "./VideoGrid";
 
 
 
