@@ -24,10 +24,10 @@ const Home = () => {
   };
 
 const videoArray = [
-  { src: "src/Converti campione v1 (1).mp4" },
-  { src: "src/Converti campione v2.mp4" },
-  { src: "src/Converti campione v3.mp4" },
-  { src: "src/Converti campione v4.mp4" }
+  { src: "src/components/v1.mp4" },
+  { src: "src/components/v2.mp4" },
+  { src: "src/components/v3.mp4" },
+  { src: "src/components/v4.mp4" }
 ];
 
 
