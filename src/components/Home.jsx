@@ -56,7 +56,7 @@ const Home = () => {
           Storie di <span>successo</span>
         </h1>
       </div>
-      { /* <VideoGrid videos={videoArray} />
+       <VideoGrid videos={videoArray} />
       <div className="additional-info">
         <p>
           <span>+</span> 12.320 ore di personal training
@@ -70,7 +70,7 @@ const Home = () => {
         <p>
           <span>+</span> 24 anni di attività sportiva
         </p>
-      </div> */}
+      </div> 
     </div>
   );
 };
