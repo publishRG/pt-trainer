@@ -26,8 +26,8 @@ const Servizi = () => {
         </h1>
       </div>
       <div>
-       <VideoWindow video1={{src="src/video2.mp4"}} />
-     </div>
+        <VideoWindow video1={src="video1.mp4"}/>
+      </div>
       <Container3 />
       <div className="separator"></div>
       {data.map((item, index) => (
