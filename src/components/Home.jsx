@@ -24,10 +24,10 @@ const Home = () => {
   };
 
 const videoArray = [
-  { src: "v1.mp4" },
-  { src: "v2.mp4" },
-  { src: "v3.mp4" },
-  { src: "v4.mp4" }
+  { src: "src/components/v1.mp4" },
+  { src: "src/components/v2.mp4" },
+  { src: "src/components/v3.mp4" },
+  { src: "src/components/v4.mp4" }
 ];
 
 
@@ -35,7 +35,7 @@ const videoArray = [
     <div className="home-container">
       <Container />
       <div>
-        <VideoWindow video1={{ src: "video1.mp4" }} />
+        <VideoWindow video1={{ src: "src/components/video1.mp4" }} />
       </div>
       <Container2 />
       <div className="titleImageComp"></div>
