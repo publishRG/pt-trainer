@@ -1,6 +1,6 @@
 import Container3 from "./Container3";
 
-// import VideoWindow from "./VideoWindow";
+import VideoWindow from "./VideoWindow";
 import AlternatingPhotoText from "./AlternatingPhotoText";
 import foto1 from "./foto1.png";
 import foto2 from "./foto2.png";
