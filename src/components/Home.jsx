@@ -24,10 +24,10 @@ const Home = () => {
   };
 
 const videoArray = [
-  { src: "src/components/v1.mp4" },
-  { src: "src/components/v2.mp4" },
-  { src: "src/components/v3.mp4" },
-  { src: "src/components/v4.mp4" }
+  { src: "v1.mp4" },
+  { src: "v2.mp4" },
+  { src: "v3.mp4" },
+  { src: "v4.mp4" }
 ];
 
 
