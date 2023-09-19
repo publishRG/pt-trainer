@@ -26,7 +26,7 @@ const Home = () => {
     maxHeight: "80px", // Imposta l'altezza massima desiderata per le immagini
   };
 
-//  const videoArray = [{ src: https://drive.google.com/file/d/1TPfcSvHep6TX6PVt5R65w-7hImZN3l2Y/view?usp=drive_link }, { src: https://drive.google.com/file/d/1NerdQgPuE5L6lZA8QcAkGCxhVCci_gUq/view?usp=drive_link }, { src: https://drive.google.com/file/d/18UYQfkrf9JpBC5Vq0ljWSzBu91mi-KJx/view?usp=drive_link }, { src: https://drive.google.com/file/d/1PIBinbHddpLnTCuMIm0oEjl-oS8ADcqi/view?usp=drive_link }];
+ const videoArray = [{ src: https://drive.google.com/file/d/1TPfcSvHep6TX6PVt5R65w-7hImZN3l2Y/view?usp=drive_link }, { src: https://drive.google.com/file/d/1NerdQgPuE5L6lZA8QcAkGCxhVCci_gUq/view?usp=drive_link }, { src: https://drive.google.com/file/d/18UYQfkrf9JpBC5Vq0ljWSzBu91mi-KJx/view?usp=drive_link }, { src: https://drive.google.com/file/d/1PIBinbHddpLnTCuMIm0oEjl-oS8ADcqi/view?usp=drive_link }];
 
   return (
     <div className="home-container">
