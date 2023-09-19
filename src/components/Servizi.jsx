@@ -25,9 +25,9 @@ const Servizi = () => {
           <span>Scegli</span>il tuo percorso
         </h1>
       </div>
-      {/*  <div>
-       <VideoWindow video1={video2} />
-     </div> */}
+      <div>
+       <VideoWindow video1={{src="src/video2.mp4"}} />
+     </div>
       <Container3 />
       <div className="separator"></div>
       {data.map((item, index) => (
