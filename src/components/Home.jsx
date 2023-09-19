@@ -34,7 +34,9 @@ const videoArray = [
   return (
     <div className="home-container">
       <Container />
-      <div><VideoWindow video1={{src="src/video1.mp4"}} /></div>
+      <div>
+        <VideoWindow video1={src="video1.mp4"} />
+      </div>
       <Container2 />
       <div className="titleImageComp"></div>
 
