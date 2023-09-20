@@ -26,7 +26,16 @@ const Servizi = () => {
         </h1>
       </div>
       <div>
-        <VideoWindow video1={{ src: "https://youtube.com/shorts/NcFzlmu_g50" }}/>
+        {/*<VideoWindow video1={{ src: "https://youtube.com/shorts/NcFzlmu_g50" }}/>*/}
+      <iframe
+        width="853"
+        height="480"
+        src={`https://youtube.com/shorts/NcFzlmu_g50`}
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+        title="Embedded youtube"
+      />
       </div>
       <Container3 />
       <div className="separator"></div>
