@@ -23,28 +23,12 @@ const Home = () => {
     maxHeight: "80px", // Imposta l'altezza massima desiderata per le immagini
   };
 
-const videoArray = [
-  {/*{ src: "https://youtu.be/embed/rUwqBEyGHdw?si=URWFHQ3l5k2_i5wV" },
+{/*const videoArray = [
+  { src: "https://youtu.be/embed/rUwqBEyGHdw?si=URWFHQ3l5k2_i5wV" },
   { src: "https://youtu.be/embed/Rd4Xw5uOqYY?si=d6dsp3W7jVLib3zu" },
   { src: "https://youtu.be/embed/fotU1_zaG2Q?si=GQedfafCtRO2RjRK" },
-  { src: "https://youtu.be/embed/t7l5ZCDlRhk?si=fAIdlescCVwMtHGu" }*/}
-  <div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/rUwqBEyGHdw?si=hBPGyF43Yzu2Eb6t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-    </iframe>
-  </div>,
-  <div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Rd4Xw5uOqYY?si=3hToNxxFpy8bV1rJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-    </iframe>
-  </div>,
-  <div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/fotU1_zaG2Q?si=CLKaYTRwi0fyRaft" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-    </iframe>
-  </div>,
-  <div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/t7l5ZCDlRhk?si=ZNE_uXIiSPCmXkSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-    </iframe>
-  </div>
-];
+  { src: "https://youtu.be/embed/t7l5ZCDlRhk?si=fAIdlescCVwMtHGu" }
+];*/}
 
 
   return (
@@ -77,7 +61,23 @@ const videoArray = [
           Storie di <span>successo</span>
         </h1>
       </div>
-      <VideoGrid videos={videoArray} />
+      {/*<VideoGrid videos={videoArray} />*/}
+      <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rUwqBEyGHdw?si=hBPGyF43Yzu2Eb6t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+      </div>
+      <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Rd4Xw5uOqYY?si=3hToNxxFpy8bV1rJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+      </div>
+      <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fotU1_zaG2Q?si=CLKaYTRwi0fyRaft" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+      </div>
+      <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/t7l5ZCDlRhk?si=ZNE_uXIiSPCmXkSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+      </div>
       <div className="additional-info">
         <p>
           <span>+</span> 12.320 ore di personal training
