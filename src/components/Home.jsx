@@ -36,7 +36,7 @@ const Home = () => {
       <Container />
       <div>
         {/*<VideoWindow video1={{ src: "https://youtube.com/shorts/5ocSgme_MBE?si=AKAv2iUgb8JnmrkI" }} />*/}
-        <iframe width="560" height="315" src="https://youtube.com/shorts/5ocSgme_MBE?si=KK1UXn03zssjdLeN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        <iframe width="560" height="315" src="https://youtube.com/embed/5ocSgme_MBE?si=KK1UXn03zssjdLeN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
         </iframe>
       </div>
       <Container2 />
