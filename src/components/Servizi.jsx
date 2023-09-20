@@ -26,7 +26,7 @@ const Servizi = () => {
         </h1>
       </div>
       <div>
-        <VideoWindow video1={{ src: "https://youtube.com/shorts/NcFzlmu_g50?si=dwtB3y6hGkDKKLBr" }}/>
+        <VideoWindow video1={{ src: "https://youtube.com/embed/shorts/NcFzlmu_g50?si=dwtB3y6hGkDKKLBr" }}/>
       <iframe
         width="853"
         height="480"
