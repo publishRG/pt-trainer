@@ -28,7 +28,7 @@ const Servizi = () => {
       <div>
         {/*<VideoWindow video1={{ src: "https://youtube.com/embed/shorts/NcFzlmu_g50?si=dwtB3y6hGkDKKLBr" }}/>*/}
         <iframe width="315" height="560"
-          src="https://youtube.com/shorts/5ocSgme_MBE?si=KK1UXn03zssjdLeN"
+          src="https://youtube.com/embed/5ocSgme_MBE?si=KK1UXn03zssjdLeN"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
