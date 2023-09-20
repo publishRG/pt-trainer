@@ -24,10 +24,46 @@ const Home = () => {
   };
 
 const videoArray = [
-  { src: "https://youtu.be/rUwqBEyGHdw" },
+  {/*{ src: "https://youtu.be/rUwqBEyGHdw" },
   { src: "https://youtu.be/Rd4Xw5uOqYY" },
   { src: "https://youtu.be/fotU1_zaG2Q" },
-  { src: "https://youtu.be/t7l5ZCDlRhk" }
+  { src: "https://youtu.be/t7l5ZCDlRhk" }*/}
+    <iframe
+      width="853"
+      height="480"
+      src={`https://youtu.be/rUwqBEyGHdw`}
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      title="Embedded youtube"
+    />,
+    |<iframe
+      width="853"
+      height="480"
+      src={`https://youtu.be/Rd4Xw5uOqYY`}
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      title="Embedded youtube"
+    />,
+    <iframe
+      width="853"
+      height="480"
+      src={`https://youtu.be/fotU1_zaG2Q`}
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      title="Embedded youtube"
+    />,
+    <iframe
+      width="853"
+      height="480"
+      src={`https://youtu.be/t7l5ZCDlRhk`}
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      title="Embedded youtube"
+    />
 ];
 
 
@@ -35,7 +71,16 @@ const videoArray = [
     <div className="home-container">
       <Container />
       <div>
-        <VideoWindow video1={{ src: "https://youtube.com/shorts/5ocSgme_MBE?feature=share" }} />
+        {/*<VideoWindow video1={{ src: "https://youtube.com/shorts/5ocSgme_MBE?feature=share" }} />*/}
+        <iframe
+          width="853"
+          height="480"
+          src={`https://youtube.com/shorts/5ocSgme_MBE?feature=share`}
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          title="Embedded youtube"
+        />
       </div>
       <Container2 />
       <div className="titleImageComp"></div>
