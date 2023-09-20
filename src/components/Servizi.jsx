@@ -26,7 +26,7 @@ const Servizi = () => {
         </h1>
       </div>
       <div>
-        <VideoWindow video1={{ src: "./video2.mp4" }}/>
+        <VideoWindow video1={{ src: "https://youtube.com/shorts/NcFzlmu_g50" }}/>
       </div>
       <Container3 />
       <div className="separator"></div>
