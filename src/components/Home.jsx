@@ -24,10 +24,10 @@ const Home = () => {
   };
 
 const videoArray = [
-  { src: "./v1.mp4" },
-  { src: "./v2.mp4" },
-  { src: "./v3.mp4" },
-  { src: "./v4.mp4" }
+  { src: "https://youtu.be/rUwqBEyGHdw" },
+  { src: "https://youtu.be/Rd4Xw5uOqYY" },
+  { src: "https://youtu.be/fotU1_zaG2Q" },
+  { src: "https://youtu.be/t7l5ZCDlRhk" }
 ];
 
 
@@ -35,7 +35,7 @@ const videoArray = [
     <div className="home-container">
       <Container />
       <div>
-        <VideoWindow video1={{ src: "./video1.mp4" }} />
+        <VideoWindow video1={{ src: "https://youtube.com/shorts/5ocSgme_MBE?feature=share" }} />
       </div>
       <Container2 />
       <div className="titleImageComp"></div>
