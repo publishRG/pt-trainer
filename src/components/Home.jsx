@@ -28,8 +28,7 @@ const videoArray = [
   { src: "https://youtu.be/Rd4Xw5uOqYY" },
   { src: "https://youtu.be/fotU1_zaG2Q" },
   { src: "https://youtu.be/t7l5ZCDlRhk" }*/}
-  <div>
-    <iframe
+  {<iframe
       width="853"
       height="480"
       src={`https://youtu.be/rUwqBEyGHdw`}
@@ -37,8 +36,8 @@ const videoArray = [
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
       title="Embedded youtube"
-    />,
-    <iframe
+    />},
+  {<iframe
       width="853"
       height="480"
       src={`https://youtu.be/Rd4Xw5uOqYY`}
@@ -46,8 +45,8 @@ const videoArray = [
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
       title="Embedded youtube"
-    />,
-    <iframe
+    />},
+  {<iframe
       width="853"
       height="480"
       src={`https://youtu.be/fotU1_zaG2Q`}
@@ -55,8 +54,8 @@ const videoArray = [
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
       title="Embedded youtube"
-    />,
-    <iframe
+    />},
+  {<iframe
       width="853"
       height="480"
       src={`https://youtu.be/t7l5ZCDlRhk`}
@@ -64,8 +63,7 @@ const videoArray = [
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
       title="Embedded youtube"
-    />
-  </div>
+    />}
 ];
 
 
