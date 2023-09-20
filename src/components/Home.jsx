@@ -28,6 +28,7 @@ const videoArray = [
   { src: "https://youtu.be/Rd4Xw5uOqYY" },
   { src: "https://youtu.be/fotU1_zaG2Q" },
   { src: "https://youtu.be/t7l5ZCDlRhk" }*/}
+  <div>
     <iframe
       width="853"
       height="480"
@@ -37,7 +38,7 @@ const videoArray = [
       allowFullScreen
       title="Embedded youtube"
     />,
-    |<iframe
+    <iframe
       width="853"
       height="480"
       src={`https://youtu.be/Rd4Xw5uOqYY`}
@@ -64,6 +65,7 @@ const videoArray = [
       allowFullScreen
       title="Embedded youtube"
     />
+  </div>
 ];
 
 
