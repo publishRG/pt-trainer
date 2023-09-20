@@ -24,10 +24,10 @@ const Home = () => {
   };
 
 const videoArray = [
-  { src: "https://youtu.be/rUwqBEyGHdw?si=URWFHQ3l5k2_i5wV" },
-  { src: "https://youtu.be/Rd4Xw5uOqYY?si=d6dsp3W7jVLib3zu" },
-  { src: "https://youtu.be/fotU1_zaG2Q?si=GQedfafCtRO2RjRK" },
-  { src: "https://youtu.be/t7l5ZCDlRhk?si=fAIdlescCVwMtHGu" }
+  { src: "https://youtu.be/embed/rUwqBEyGHdw?si=URWFHQ3l5k2_i5wV" },
+  { src: "https://youtu.be/embed/Rd4Xw5uOqYY?si=d6dsp3W7jVLib3zu" },
+  { src: "https://youtu.be/embed/fotU1_zaG2Q?si=GQedfafCtRO2RjRK" },
+  { src: "https://youtu.be/embed/t7l5ZCDlRhk?si=fAIdlescCVwMtHGu" }
 ];
 
 
