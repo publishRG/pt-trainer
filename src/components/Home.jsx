@@ -16,28 +16,36 @@ import cam7 from "./cam7.png";
 import cam8 from "./cam8.png";
 // import cam8 from "./cam8.png";
 
-import "./Home.css"; // Assumi che questo sia il tuo file di stile CSS per Home
+import "./Home.css";
 
 const Home = () => {
   const imageStyle = {
     maxHeight: "80px", // Imposta l'altezza massima desiderata per le immagini
   };
 
-{/*const videoArray = [
+  {
+    /*const videoArray = [
   { src: "https://youtu.be/embed/rUwqBEyGHdw?si=URWFHQ3l5k2_i5wV" },
   { src: "https://youtu.be/embed/Rd4Xw5uOqYY?si=d6dsp3W7jVLib3zu" },
   { src: "https://youtu.be/embed/fotU1_zaG2Q?si=GQedfafCtRO2RjRK" },
   { src: "https://youtu.be/embed/t7l5ZCDlRhk?si=fAIdlescCVwMtHGu" }
-];*/}
-
+];*/
+  }
 
   return (
     <div className="home-container">
       <Container />
       <div>
         {/*<VideoWindow video1={{ src: "https://youtube.com/shorts/5ocSgme_MBE?si=AKAv2iUgb8JnmrkI" }} />*/}
-        <iframe width="560" height="315" src="https://youtube.com/embed/5ocSgme_MBE?si=KK1UXn03zssjdLeN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-        </iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://youtube.com/embed/5ocSgme_MBE?si=KK1UXn03zssjdLeN"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
       </div>
       <Container2 />
       <div className="titleImageComp"></div>
@@ -60,25 +68,53 @@ const Home = () => {
       </div>
       <div className="cont">
         <h1 className="main-heading">
-          Storie di <span>successo</span>
+          Testimonianze di <span>successo</span>
         </h1>
       </div>
       {/*<VideoGrid videos={videoArray} />*/}
       <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/rUwqBEyGHdw?si=hBPGyF43Yzu2Eb6t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-        </iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/rUwqBEyGHdw?si=hBPGyF43Yzu2Eb6t"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
       </div>
       <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Rd4Xw5uOqYY?si=3hToNxxFpy8bV1rJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-        </iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Rd4Xw5uOqYY?si=3hToNxxFpy8bV1rJ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
       </div>
       <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/fotU1_zaG2Q?si=CLKaYTRwi0fyRaft" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-        </iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/fotU1_zaG2Q?si=CLKaYTRwi0fyRaft"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
       </div>
       <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/t7l5ZCDlRhk?si=ZNE_uXIiSPCmXkSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-        </iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/t7l5ZCDlRhk?si=ZNE_uXIiSPCmXkSs"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
       </div>
       <div className="additional-info">
         <p>
@@ -93,7 +129,7 @@ const Home = () => {
         <p>
           <span>+</span> 24 anni di attività sportiva
         </p>
-      </div> 
+      </div>
     </div>
   );
 };
