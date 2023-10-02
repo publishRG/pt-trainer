@@ -23,9 +23,7 @@ const Home = () => {
     maxHeight: "80px", // Imposta l'altezza massima desiderata per le immagini
   };
 
-  {
-    const videoArray = [{ src: "https://www.samuelsalzillo.it/riccardo/v2" }];
-  }
+  const videoArray = [{ src: "https://www.samuelsalzillo.it/riccardo/v2" }];
 
   return (
     <div className="home-container">
@@ -63,7 +61,7 @@ const Home = () => {
       </div>
       <div className="cont">
         <h1 className="main-heading">
-          Testimonianze di <span>successo</span>
+          Storie di <span>successo</span>
         </h1>
       </div>
       <VideoGrid videos={videoArray} />
