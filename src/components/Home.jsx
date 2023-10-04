@@ -25,7 +25,7 @@ const Home = () => {
 
   const videoArray = [
     {
-      src: "https://www.samuelsalzillo.it/riccardo/v1",
+      src: "https://www.samuelsalzillo.it/riccardo/v2",
       src: "https://www.samuelsalzillo.it/riccardo/v2",
       src: "https://www.samuelsalzillo.it/riccardo/v3",
       src: "https://www.samuelsalzillo.it/riccardo/v4",
@@ -37,7 +37,7 @@ const Home = () => {
       <Container />
       <div>
         <VideoWindow
-          video1={{ src: "https://www.samuelsalzillo.it/riccardo/video1" }}
+          video1={{ src: "https://www.samuelsalzillo.it/riccardo/v1" }}
         />
       </div>
       <Container2 />
