@@ -70,7 +70,7 @@ const Home = () => {
       </div>
       <div className="cont">
         <h1 className="main-heading">
-          Storie di <span>successo</span>
+          Testimonianze di <span>successo</span>
         </h1>
       </div>
       <VideoGrid videos={videoArray} />
