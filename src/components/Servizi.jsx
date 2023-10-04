@@ -26,14 +26,9 @@ const Servizi = () => {
         </h1>
       </div>
       <div>
-        {/*<VideoWindow video1={{ src: "https://youtube.com/embed/shorts/NcFzlmu_g50?si=dwtB3y6hGkDKKLBr" }}/>*/}
-        <iframe width="315" height="560"
-          src="https://youtube.com/embed/NcFzlmu_g50?si=ioF6APpHKTat4pjb"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen>
-        </iframe>
+        <VideoWindow
+          video1={{ src: "https://www.samuelsalzillo.it/riccardo/video2" }}
+        />
       </div>
       <Container3 />
       <div className="separator"></div>

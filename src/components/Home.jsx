@@ -23,13 +23,22 @@ const Home = () => {
     maxHeight: "80px", // Imposta l'altezza massima desiderata per le immagini
   };
 
-  const videoArray = [{ src: "https://www.samuelsalzillo.it/riccardo/v2" }];
+  const videoArray = [
+    {
+      src: "https://www.samuelsalzillo.it/riccardo/v1",
+      src: "https://www.samuelsalzillo.it/riccardo/v2",
+      src: "https://www.samuelsalzillo.it/riccardo/v3",
+      src: "https://www.samuelsalzillo.it/riccardo/v4",
+    },
+  ];
 
   return (
     <div className="home-container">
       <Container />
       <div>
-        {/*<VideoWindow video1={{ src: "https://youtube.com/shorts/5ocSgme_MBE?si=AKAv2iUgb8JnmrkI" }} />*/}
+        <VideoWindow
+          video1={{ src: "https://www.samuelsalzillo.it/riccardo/video1" }}
+        />
         <iframe
           width="560"
           height="315"
