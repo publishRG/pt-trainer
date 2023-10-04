@@ -28,7 +28,6 @@ const Home = () => {
       src: "https://www.samuelsalzillo.it/riccardo/v1",
       src: "https://www.samuelsalzillo.it/riccardo/v2",
       src: "https://www.samuelsalzillo.it/riccardo/v3",
-      src: "https://www.samuelsalzillo.it/riccardo/v4",
     },
   ];
 
